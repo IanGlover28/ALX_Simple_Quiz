@@ -18,7 +18,7 @@ function checkAnswer() {
     // Compare the user's answer with the correct answer
     if (userAnswer === correctAnswer) {
         // Provide feedback for the correct answer
-        feedbackElement.textContent = "Correct! 2 + 2 equals 4.";
+        feedbackElement.textContent = "Correct! Well done.";
     } else {
         // Provide feedback for the incorrect answer
         feedbackElement.textContent = "Incorrect. Try again!";
