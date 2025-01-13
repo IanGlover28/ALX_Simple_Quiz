@@ -21,7 +21,7 @@ function checkAnswer() {
         feedbackElement.textContent = "Correct! Well done.";
     } else {
         // Provide feedback for the incorrect answer
-        feedbackElement.textContent = "Incorrect. Try again!";
+        feedbackElement.textContent = "That's incorrect. Try again!";
     }
 }
 
